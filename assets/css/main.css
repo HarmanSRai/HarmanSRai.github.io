@@ -21,7 +21,7 @@ section, summary, time, mark, audio, video,h2, h6, p {
 		box-sizing: border-box;
 		align-items: stretch;
 	vertical-align: baseline;
-	display: wrap;}
+	display: block;}
 
 
 article, aside, details, figcaption, figure,
@@ -181,9 +181,9 @@ input, select, textarea {
 
 	.container {
 		vertical-align: baseline;
-		max-width: 133%;
-		min-height: 200%;
-		min-width: 108%;
+		max-width: 160%;
+		min-height: 300%;
+		min-width: 105%;
 		text-align: center;
 		margin:1px;
 	}
