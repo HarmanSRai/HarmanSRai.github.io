@@ -187,19 +187,19 @@ input, select, textarea {
 /* Container */
 
 	.container {
-		margin: auto;
-		max-width: 100%;
-		width: 1400px;
+		margin: 1px;
+		max-width: 145%;
+		min-width: 110%;
 	}
 
 		.container.medium {
-			width: 1050px;
+			width: 100%;
 		}
 
 		@media screen and (max-width: 100%) {
 
 			.container {
-				width: 1200px;
+				width: 20%;
 			}
 
 				.container.medium {
@@ -259,7 +259,7 @@ input, select, textarea {
 /* Row */
 
 	.row {
-		display: flex;
+		display: wrap;
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
