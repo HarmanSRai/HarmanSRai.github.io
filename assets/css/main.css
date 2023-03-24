@@ -17,15 +17,15 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	
+		flex-wrap: wrap;
+		box-sizing: border-box;
+		align-items: stretch;
 	vertical-align: baseline;
 	display: wrap;}
 	
 h2, h6, p {
 	margin: 0;
 	padding: 0;
-	border: 0;
-	text-align: center;
 	font-size: 100%;
 	font: inherit;
 
@@ -187,19 +187,20 @@ input, select, textarea {
 /* Container */
 
 	.container {
-		margin: 1px;
-		max-width: 145%;
-		min-width: 110%;
+		margin: 0%;
+		max-width: 120%;
+		min-height: 150%;
+		min-width: 465px;
 	}
 
 		.container.medium {
-			width: 100%;
+			width: 140%;
 		}
 
 		@media screen and (max-width: 100%) {
 
 			.container {
-				width: 20%;
+				width: 100%;
 			}
 
 				.container.medium {
@@ -220,7 +221,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1980px) {
 
 			.container {
 				width: 95%;
@@ -259,7 +260,7 @@ input, select, textarea {
 /* Row */
 
 	.row {
-		display: wrap;
+		display: inherit;
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
