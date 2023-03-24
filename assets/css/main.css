@@ -22,11 +22,12 @@ section, summary, time, mark, audio, video {
 	display: wrap;}
 	
 h2, h6, p {
-	margin: 0;
-	padding: 0;
+	margin: auto;
+	padding: 100;
 	border: 0;
 	text-align: center;
 	font-size: 100%;
+	vertical-align: baseline;
 	font: inherit;
 
 }
@@ -187,7 +188,7 @@ input, select, textarea {
 /* Container */
 
 	.container {
-		margin: 0 auto;
+		margin: auto;
 		max-width: 100%;
 		width: 1400px;
 	}
@@ -196,7 +197,7 @@ input, select, textarea {
 			width: 1050px;
 		}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 100%) {
 
 			.container {
 				width: 1200px;
@@ -208,7 +209,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 100%) {
 
 			.container {
 				width: 960px;
@@ -232,7 +233,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 840px) {
+		@media screen and (max-width: 100%) {
 
 			.container {
 				width: 95%;
@@ -244,7 +245,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 100%) {
 
 			.container {
 				width: 100%;
@@ -295,7 +296,7 @@ input, select, textarea {
 
 		.row.aln-bottom {
 			align-items: flex-end;
-		}
+		}co
 
 		.row > .imp {
 			order: -1;
@@ -374,7 +375,8 @@ input, select, textarea {
 		}
 
 		.row > .col-10 {
-			width: 83.3333333333%;
+			min-width: 94.3333333333%;
+			max-width: 100%;
 		}
 
 		.row > .off-10 {
@@ -390,7 +392,7 @@ input, select, textarea {
 		}
 
 		.row > .col-12 {
-			width: 100%;
+			width: 91%;
 		}
 
 		.row > .off-12 {
@@ -499,7 +501,7 @@ input, select, textarea {
 					padding-top: 100px;
 				}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 100%) {
 
 			.row {
 				display: flex;
@@ -744,7 +746,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 100%) {
 
 			.row {
 				display: flex;
@@ -1234,7 +1236,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 840px) {
+		@media screen and (max-width: 100%) {
 
 			.row {
 				display: flex;
@@ -1479,7 +1481,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 100%) {
 
 			.row {
 				display: flex;
@@ -2555,7 +2557,7 @@ input, select, textarea {
 					font-size: 2.5em;
 					font-weight: 900;
 					letter-spacing: 0.2em;
-					margin: 0;
+					margin: 1000;
 					padding-left: 0.05em;
 					position: relative;
 					text-transform: uppercase;
@@ -2585,6 +2587,7 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: 25em;
 		padding: 7em 0;
+		text-align:center;
 	}
 
 		#main > :last-child {
