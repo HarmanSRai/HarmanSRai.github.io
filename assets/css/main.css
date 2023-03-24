@@ -22,12 +22,11 @@ section, summary, time, mark, audio, video {
 	display: wrap;}
 	
 h2, h6, p {
-	margin: auto;
-	padding: 100;
+	margin: 0;
+	padding: 0;
 	border: 0;
 	text-align: center;
 	font-size: 100%;
-	vertical-align: baseline;
 	font: inherit;
 
 }
@@ -296,7 +295,7 @@ input, select, textarea {
 
 		.row.aln-bottom {
 			align-items: flex-end;
-		}co
+		}
 
 		.row > .imp {
 			order: -1;
@@ -375,8 +374,7 @@ input, select, textarea {
 		}
 
 		.row > .col-10 {
-			min-width: 94.3333333333%;
-			max-width: 100%;
+			width: 83.3333333333%;
 		}
 
 		.row > .off-10 {
@@ -392,7 +390,7 @@ input, select, textarea {
 		}
 
 		.row > .col-12 {
-			width: 91%;
+			width: 100%;
 		}
 
 		.row > .off-12 {
@@ -1236,7 +1234,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 100%) {
+		@media screen and (max-width: 840px) {
 
 			.row {
 				display: flex;
@@ -1481,7 +1479,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 100%) {
+		@media screen and (max-width: 736px) {
 
 			.row {
 				display: flex;
@@ -2557,7 +2555,7 @@ input, select, textarea {
 					font-size: 2.5em;
 					font-weight: 900;
 					letter-spacing: 0.2em;
-					margin: 1000;
+					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
 					text-transform: uppercase;
@@ -2587,7 +2585,6 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: 25em;
 		padding: 7em 0;
-		text-align:center;
 	}
 
 		#main > :last-child {
